@@ -1,0 +1,13 @@
+//atividade 1
+
+<!--Significado de automovel-->
+veículo que realiza transporte de carga, pessoas ou os dois juntos e é movido a motor,
+que nescessita de um condutor, um freio, um acelerador, embreagem, ignição.
+
+objetos
+
+ condutor: sem um condutor o carro não funciona, pois é ele quem aciona o freio, o acelerador, a ignição,a embragem.
+ freio: o freio serve para parar o veículo, sem ele se o carro não pararia facilmente.
+ acelerador: serve para fazer o veículo começar a se locomover ou aumentar a sua velocidade.
+ ignição: serve para deixar todas as outros objetos funcionas se o condutor não acionar a ignição nada funcionará.
+ embragem: serve para mudar as marchar do carro.
