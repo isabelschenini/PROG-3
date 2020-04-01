@@ -1,0 +1,43 @@
+// Isabel Schenini e Kelvin Kirst;
+<?php
+class Veiculo{
+  public $modelo;
+  public $velocidade;
+  public $passageiros;
+  public $combustivel;
+}
+
+class Carro extends Veiculo{
+public $portas;
+public $ano;
+
+public function Carro($m,$vel,$pass,$comb,$por,$an){
+  $this->modelo = $m;
+  $this->velocidade = $vel;
+  $this->passageiros = $pass;
+  $this->combustivel = $comb;
+  $this->portas = $por;
+  $this->ano = $an;
+}
+}
+class Aviao extends Veiculo{
+public $uso;
+public $tipo;
+
+public function aviao($m,$vel,$pass,$comb,$us,$tp){
+  $this->modelo = $m;
+  $this->velocidade = $vel;
+  $this->passageiros = $pass;
+  $this->combustivel = $comb;
+  $this->uso = $us;
+  $this->tipo = $tp;
+}}
+$c1 = new Carro("jeep","190 KM/h",5,"320 litros",2,1970);
+$c2 = new Carro("Gordini","115 KM/h",5,"32 litros",4,1962);
+print_r ($c1);
+print_r ($c2);
+$av1 = new Aviao("PA-18","290 KM/h",1,"136 litros","agricola","Aeronave utilitária leve");
+$av2 = new Aviao("Boeing 737 MAX","833 KM/h",232,"18.000 litros","transporte","Aeronave comercial");
+print_r ($av1);
+print_r ($av2);
+?>
